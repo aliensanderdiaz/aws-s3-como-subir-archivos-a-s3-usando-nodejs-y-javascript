@@ -1,0 +1,27 @@
+{
+  "name": "aws-s3-como-subir-archivos-a-s3-usando-nodejs-y-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliensanderdiaz/aws-s3-como-subir-archivos-a-s3-usando-nodejs-y-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliensanderdiaz/aws-s3-como-subir-archivos-a-s3-usando-nodejs-y-javascript/issues"
+  },
+  "homepage": "https://github.com/aliensanderdiaz/aws-s3-como-subir-archivos-a-s3-usando-nodejs-y-javascript#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1282.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-handlebars": "^6.0.6"
+  }
+}

@@ -25,7 +25,17 @@ const uploadToBucket = (bucketName, file) => {
     return storage.upload(params).promise()
 }
 
+const getFileStream = (fileKey) => {
+    const downloadParams = {
+      Key: fileKey,
+      Bucket: bucketName,
+      Expires: 86400
+    }
+    return s3.getSignedUrl('getObject', downloadParams)
+  }
+
 module.exports = {
     getBuckets,
-    uploadToBucket
+    uploadToBucket,
+    getFileStream
 }
